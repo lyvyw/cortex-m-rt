@@ -145,6 +145,9 @@ SECTIONS
   }
 }
 
+
+INCLUDE tasks.x
+
 /* Do not exceed this mark in the error messages below                                    | */
 /* # Alignment checks */
 ASSERT(ORIGIN(FLASH) % 4 == 0, "
